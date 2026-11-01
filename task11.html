@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 11 Image Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <strong>jQuery Practice</strong>
+    <nav aria-label="Tasks">
+      <a href="index.html">Home</a>
+      <a href="task0.html">Task 0</a>
+      <a href="task1.html">Task 1</a>
+      <a href="task2.html">Task 2</a>
+      <a href="task3.html">Task 3</a>
+      <a href="task4.html">Task 4</a>
+      <a href="task5.html">Task 5</a>
+      <a href="task6.html">Task 6</a>
+      <a href="task7.html">Task 7</a>
+      <a href="task8.html">Task 8</a>
+      <a href="task9.html">Task 9</a>
+      <a href="task10.html">Task 10</a>
+      <a href="task11.html" class="current">Task 11</a>
+    </nav>
+  </header>
+  <main>
+    <h1>Task 11 Image Gallery</h1>
+    <p class="intro">Click a thumbnail to display a larger picture.</p>
+    <section>
+  <h2>Task 11 Image Gallery</h2>
+  <p>Choose one of the three images:</p>
+  <div id="galleryThumbs">
+    <img src="images/scene1.svg" alt="Green hills">
+    <img src="images/scene2.svg" alt="Sea coast">
+    <img src="images/scene3.svg" alt="Desert sunset">
+  </div>
+  <button id="galleryFadeBtn">Show / Hide thumbnails</button>
+  <p>Selected image:</p>
+  <img id="largeImage" src="images/scene1.svg" alt="Selected gallery image">
+  <p class="note">jQuery changes the image with .attr(), fades it with .fadeOut() / .fadeIn(), and enlarges the selected thumbnail with .animate().</p>
+</section>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="JS/task11.js"></script>
+</body>
+</html>

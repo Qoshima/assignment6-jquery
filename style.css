@@ -1,0 +1,27 @@
+/* A simple style shared by all pages. */
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; color: #222; background: #fff; line-height: 1.5; }
+header { background: #f4f4f4; border-bottom: 1px solid #ddd; padding: 16px 22px; }
+header strong { font-size: 19px; }
+nav { margin-top: 10px; display: flex; gap: 16px; flex-wrap: wrap; }
+nav a { color: #2459ad; text-decoration: none; }
+main { width: min(850px, 100%); margin: 24px auto 60px; padding: 0 20px; }
+h1 { font-size: 28px; margin: 0 0 6px; }
+h2 { font-size: 20px; margin: 0 0 12px; }
+p { margin: 8px 0; }
+.intro { color: #666; margin-bottom: 26px; }
+section { border: 1px solid #ddd; border-radius: 6px; padding: 20px; margin-bottom: 18px; }
+button { background: #2765ba; color: #fff; border: 0; border-radius: 4px; padding: 9px 13px; cursor: pointer; font-size: 14px; margin: 8px 6px 8px 0; }
+button:hover { background: #1b4b8c; }
+input { width: min(100%, 350px); display: block; padding: 8px; margin: 5px 0 12px; border: 1px solid #aaa; border-radius: 3px; }
+label { display: block; }
+.sample { background: #f6f7f8; padding: 12px; border-radius: 4px; }
+.example-image { width: min(100%, 300px); display: block; margin: 12px 0; border: 1px solid #ddd; }
+#slidePanel { background: #e7efff; padding: 16px; border: 1px solid #bfd2f5; border-radius: 4px; }
+#itemList li { margin: 4px 0; }
+.stage { height: 160px; border: 1px dashed #bbb; background: #fafafa; position: relative; overflow: hidden; margin: 12px 0; }
+.square { position: absolute; top: 20px; left: 20px; width: 55px; height: 55px; background: #2765ba; }
+#largeImage { display: block; width: min(100%, 300px); height: auto; border: 1px solid #ddd; margin: 12px 0 16px; }
+#galleryThumbs { display: flex; gap: 10px; align-items: center; min-height: 100px; flex-wrap: wrap; }
+#galleryThumbs img { width: 90px; height: 70px; object-fit: cover; border: 1px solid #bbb; cursor: pointer; }
+.note { font-size: 13px; color: #666; }
